@@ -1,0 +1,152 @@
+# Configuración del sitio
+title: "Diesel Global Logistics - Documentación"
+description: "Documentación técnica del proyecto de gestión de inventarios"
+baseurl: "/documentacion-proyecto-diesel-global"
+url: "https://daniolve17.github.io"
+
+# Tema de GitHub Pages
+theme: jekyll-theme-cayman
+
+# Navegación del sitio
+navigation:
+  - id: acta-constitutiva
+    title: "Acta Constitutiva"
+    url: /01-acta-constitutiva/
+    
+  - id: scrum
+    title: "Scrum"
+    children:
+      - title: "Introducción"
+        url: /02-scrum/
+      - title: "Sprint 1"
+        url: /02-scrum/sprint-1
+      - title: "Sprint 2"
+        url: /02-scrum/sprint-2
+      - title: "Sprint 3"
+        url: /02-scrum/sprint-3
+      - title: "Sprint 4"
+        url: /02-scrum/sprint-4
+      - title: "Sprint 5"
+        url: /02-scrum/sprint-5
+      - title: "Sprint 6"
+        url: /02-scrum/sprint-6
+      - title: "Sprint 7"
+        url: /02-scrum/sprint-7
+        
+  - id: gestion
+    title: "Gestión del Proyecto"
+    children:
+      - title: "Introducción"
+        url: /03-gestion-proyecto/
+      - title: "Plan de Dirección"
+        url: /03-gestion-proyecto/plan-direccion
+      - title: "EDT/WBS"
+        url: /03-gestion-proyecto/edt-wbs
+      - title: "Cronograma"
+        url: /03-gestion-proyecto/cronograma
+      - title: "Presupuesto"
+        url: /03-gestion-proyecto/presupuesto
+        
+  - id: alcance
+    title: "Alcance"
+    children:
+      - title: "Introducción"
+        url: /04-alcance/
+      - title: "Requisitos Funcionales"
+        url: /04-alcance/requisitos-funcionales
+      - title: "Requisitos No Funcionales"
+        url: /04-alcance/requisitos-no-funcionales
+      - title: "Matriz de Trazabilidad"
+        url: /04-alcance/matriz-trazabilidad
+        
+  - id: analisis
+    title: "Análisis de Negocio"
+    children:
+      - title: "Introducción"
+        url: /05-analisis-negocio/
+      - title: "Análisis AS-IS"
+        url: /05-analisis-negocio/as-is
+      - title: "Análisis TO-BE"
+        url: /05-analisis-negocio/to-be
+      - title: "Casos de Uso"
+        url: /05-analisis-negocio/casos-uso
+      - title: "Historias de Usuario"
+        url: /05-analisis-negocio/historias-usuario
+        
+  - id: diseno
+    title: "Diseño del Sistema"
+    children:
+      - title: "Introducción"
+        url: /06-diseno/
+      - title: "Arquitectura"
+        url: /06-diseno/arquitectura
+      - title: "Base de Datos"
+        url: /06-diseno/base-datos
+      - title: "API REST"
+        url: /06-diseno/api-rest
+      - title: "Diagramas UML"
+        url: /06-diseno/diagramas-uml
+      - title: "UI/UX"
+        url: /06-diseno/ui-ux
+        
+  - id: desarrollo
+    title: "Desarrollo"
+    children:
+      - title: "Introducción"
+        url: /07-desarrollo/
+      - title: "Backend"
+        url: /07-desarrollo/backend
+      - title: "Frontend"
+        url: /07-desarrollo/frontend
+        
+  - id: calidad
+    title: "Calidad y Pruebas"
+    children:
+      - title: "Introducción"
+        url: /08-calidad/
+      - title: "Plan de Calidad"
+        url: /08-calidad/plan-calidad
+      - title: "Estrategia de Testing"
+        url: /08-calidad/estrategia-testing
+      - title: "Casos de Prueba"
+        url: /08-calidad/casos-prueba
+      - title: "Reporte QA"
+        url: /08-calidad/reporte-qa
+        
+  - id: riesgos
+    title: "Gestión de Riesgos"
+    url: /09-riesgos/
+    
+  - id: interesados
+    title: "Interesados"
+    url: /10-interesados/
+    
+  - id: comunicaciones
+    title: "Comunicaciones"
+    url: /11-comunicaciones/
+    
+  - id: manuales
+    title: "Manuales"
+    children:
+      - title: "Introducción"
+        url: /12-manuales/
+      - title: "Manual de Usuario"
+        url: /12-manuales/manual-usuario
+      - title: "Manual Técnico"
+        url: /12-manuales/manual-tecnico
+
+# Información del proyecto
+project:
+  code: "PROJ-2025-001"
+  version: "1.0"
+  start_date: "19/09/2025"
+  duration: "17 semanas"
+  team_size: 8
+
+# Configuración de construcción
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
