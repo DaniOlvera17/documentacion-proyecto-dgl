@@ -1,7 +1,7 @@
 # Configuración del sitio
 title: "Diesel Global Logistics - Documentación"
 description: "Documentación técnica del proyecto de gestión de inventarios"
-baseurl: "/documentacion-proyecto-diesel-global"
+baseurl: "/documentacion-proyecto-dgl"
 url: "https://daniolve17.github.io"
 
 # Tema de GitHub Pages
