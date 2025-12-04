@@ -1,145 +1,201 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-    <div class="layout-container">
-        <!-- Sidebar -->
-        <aside id="sidebar" class="sidebar">
-            <!-- Header del Sidebar -->
-            <div class="sidebar-header">
-                <div class="logo-container">
-                    <div class="logo-box">
-                        <span class="logo-text">DGL</span>
-                    </div>
-                    <div class="company-info">
-                        <h1 class="company-name">Diesel Global</h1>
-                        <h2 class="company-subtitle">Logistics</h2>
-                    </div>
-                </div>
-            </div>
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-            <!-- Navegación -->
-            <nav class="sidebar-nav">
-                {% for item in site.navigation %}
-                <div class="nav-item">
-                    {% if item.children %}
-                    <!-- Sección con hijos (desplegable) -->
-                    <button class="nav-button has-children" onclick="toggleSection('{{ item.id }}')">
-                        <span class="chevron" id="chevron-{{ item.id }}">▶</span>
-                        <span class="nav-icon">📁</span>
-                        <span class="nav-title">{{ item.title }}</span>
-                    </button>
-                    <div class="nav-children" id="section-{{ item.id }}" style="display: none;">
-                        {% for child in item.children %}
-                        <a href="{{ child.url | relative_url }}" class="nav-child-link">
-                            {{ child.title }}
-                        </a>
-                        {% endfor %}
-                    </div>
-                    {% else %}
-                    <!-- Sección simple (sin hijos) -->
-                    <a href="{{ item.url | relative_url }}" class="nav-button">
-                        <span class="nav-icon">📄</span>
-                        <span class="nav-title">{{ item.title }}</span>
-                    </a>
-                    {% endif %}
-                </div>
-                {% endfor %}
-            </nav>
+/* Variables de color Diesel Global */
+:root {
+  --diesel-mint: #E5F3F5;
+  --diesel-navy: #264555;
+  --diesel-blue: #2C8CC4;
+  --diesel-teal: #6BA0B4;
+  --diesel-gray: #5B686E;
+  --diesel-sage: #6C847C;
+}
 
-            <!-- Footer del Sidebar -->
-            <div class="sidebar-footer">
-                © 2025 Diesel Global Logistics Inc.
-            </div>
-        </aside>
+/* Body y estilos base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
 
-        <!-- Contenido Principal -->
-        <div class="main-wrapper">
-            <!-- Header Superior -->
-            <header class="main-header">
-                <button id="toggleSidebar" class="toggle-button" onclick="toggleSidebar()">
-                    <span id="toggleIcon">☰</span>
-                </button>
-                <h1 class="header-title">Documentación del Proyecto</h1>
-            </header>
+/* Header principal */
+.page-header {
+  background: linear-gradient(135deg, var(--diesel-navy) 0%, var(--diesel-blue) 100%);
+  padding: 3rem 1rem;
+  text-align: center;
+  color: white;
+  border-bottom: 4px solid var(--diesel-teal);
+}
 
-            <!-- Área de Contenido -->
-            <main class="main-content">
-                <div class="content-card">
-                    <h2 class="content-title">{{ page.title }}</h2>
-                    
-                    {{ content }}
-                </div>
-            </main>
-        </div>
-    </div>
+.project-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
 
-    <!-- JavaScript -->
-    <script>
-        // Toggle Sidebar
-        function toggleSidebar() {
-            const sidebar = document.getElementById('sidebar');
-            const toggleIcon = document.getElementById('toggleIcon');
-            
-            if (sidebar.classList.contains('sidebar-closed')) {
-                sidebar.classList.remove('sidebar-closed');
-                toggleIcon.textContent = '✕';
-            } else {
-                sidebar.classList.add('sidebar-closed');
-                toggleIcon.textContent = '☰';
-            }
-        }
+.project-tagline {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  color: var(--diesel-mint);
+  font-weight: 300;
+}
 
-        // Toggle Section (Expandir/Colapsar)
-        function toggleSection(sectionId) {
-            const section = document.getElementById('section-' + sectionId);
-            const chevron = document.getElementById('chevron-' + sectionId);
-            
-            if (section.style.display === 'none' || section.style.display === '') {
-                section.style.display = 'block';
-                chevron.textContent = '▼';
-            } else {
-                section.style.display = 'none';
-                chevron.textContent = '▶';
-            }
-        }
+/* Contenedor principal */
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
 
-        // Marcar página activa
-        document.addEventListener('DOMContentLoaded', function() {
-            const currentPath = window.location.pathname;
-            const links = document.querySelectorAll('.nav-button, .nav-child-link');
-            
-            links.forEach(link => {
-                if (link.getAttribute('href') === currentPath) {
-                    link.classList.add('active');
-                    
-                    // Si es un hijo, expandir su padre
-                    const parent = link.closest('.nav-children');
-                    if (parent) {
-                        parent.style.display = 'block';
-                        const parentId = parent.id.replace('section-', '');
-                        const chevron = document.getElementById('chevron-' + parentId);
-                        if (chevron) chevron.textContent = '▼';
-                    }
-                }
-            });
+/* Títulos */
+h1 {
+  color: var(--diesel-navy);
+  font-size: 2.25rem;
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--diesel-blue);
+}
 
-            // Expandir secciones por defecto
-            const defaultExpanded = ['gestion', 'scrum'];
-            defaultExpanded.forEach(id => {
-                const section = document.getElementById('section-' + id);
-                const chevron = document.getElementById('chevron-' + id);
-                if (section) {
-                    section.style.display = 'block';
-                    if (chevron) chevron.textContent = '▼';
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+h2 {
+  color: var(--diesel-blue);
+  font-size: 1.875rem;
+  margin: 1.5rem 0 1rem 0;
+  padding-bottom: 0.375rem;
+  border-bottom: 2px solid var(--diesel-teal);
+}
+
+h3 {
+  color: var(--diesel-navy);
+  font-size: 1.5rem;
+  margin: 1.25rem 0 0.75rem 0;
+}
+
+/* Enlaces */
+a {
+  color: var(--diesel-blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--diesel-navy);
+  text-decoration: underline;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 4px rgba(38, 69, 85, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table thead {
+  background: linear-gradient(135deg, var(--diesel-navy) 0%, var(--diesel-blue) 100%);
+  color: white;
+}
+
+table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+table td {
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+  background-color: var(--diesel-mint);
+}
+
+table tbody tr:nth-child(even) {
+  background-color: rgba(229, 243, 245, 0.3);
+}
+
+/* Listas */
+ul, ol {
+  margin: 1rem 0 1rem 2rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+li::marker {
+  color: var(--diesel-blue);
+}
+
+/* Código */
+code {
+  background-color: var(--diesel-mint);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  color: var(--diesel-navy);
+  border: 1px solid var(--diesel-teal);
+}
+
+pre {
+  background: var(--diesel-mint);
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1rem 0;
+  border: 1px solid var(--diesel-teal);
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* Footer */
+.site-footer {
+  background: linear-gradient(135deg, var(--diesel-navy) 0%, var(--diesel-gray) 100%);
+  color: var(--diesel-mint);
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  text-align: center;
+  border-top: 4px solid var(--diesel-blue);
+}
+
+/* Divs con estilo */
+div[style*="background"] {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-name {
+    font-size: 1.75rem;
+  }
+  
+  .project-tagline {
+    font-size: 1rem;
+  }
+  
+  .main-content {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+}
