@@ -12,6 +12,9 @@ navigation:
   - id: acta-constitutiva
     title: "Acta Constitutiva"
     url: /01-acta-constitutiva/
+    children:
+      - title: "Acta Constitutiva"
+        url: /01-acta-constitutiva/IndexA/
     
   - id: scrum
     title: "Scrum"
