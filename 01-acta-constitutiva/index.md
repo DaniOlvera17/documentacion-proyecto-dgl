@@ -230,25 +230,25 @@ Desarrollar una plataforma web de gestión de almacén y embarques para Diesel G
 | Hito | Semana | Estado |
 |------|--------|--------|
 | ✅ Aprobación de requerimientos | Semana 2 | <span class="badge badge-success">Completado</span> |
-| 🔄 Backend funcional con BD | Semana 6 | <span class="badge badge-info">En progreso</span> |
-| ⏳ Frontend integrado | Semana 9 | <span class="badge badge-warning">Pendiente</span> |
-| ⏳ Validación QA | Semana 11 | <span class="badge badge-warning">Pendiente</span> |
-| ⏳ Despliegue final | Semana 12 | <span class="badge badge-warning">Pendiente</span> |
+| ✅ Backend funcional con BD | Semana 6 | <span class="badge badge-info">Completado</span> |
+| ✅ Frontend integrado | Semana 9 | <span class="badge badge-warning">Completado</span> |
+| ✅ Validación QA | Semana 11 | <span class="badge badge-warning">Completado</span> |
+| ✅ Despliegue final | Semana 12 | <span class="badge badge-warning">Completado</span> |
 
 ---
 
 ## 8. Presupuesto Estimado
 
 <div class="info-box">
-  <h3>Presupuesto preliminar estimado: $50,000 USD</h3>
+  <h3>Presupuesto preliminar estimado: $50,000 MXN</h3>
 </div>
 
 | Rubro | Porcentaje | Monto |
 |-------|-----------|-------|
-| **Desarrollo** | 60% | $30,000 USD |
-| **Pruebas QA** | 25% | $12,500 USD |
-| **Capacitación y documentación** | 15% | $7,500 USD |
-| **TOTAL** | **100%** | **$50,000 USD** |
+| **Desarrollo** | 60% | $30,000 MXN |
+| **Pruebas QA** | 25% | $12,500 MXN |
+| **Capacitación y documentación** | 15% | $7,500 MXN |
+| **TOTAL** | **100%** | **$50,000 MXN** |
 
 ---
 
