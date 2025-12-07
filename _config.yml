@@ -1,23 +1,33 @@
-# Configuración del sitio
+# ===============================
+# Configuración general del sitio
+# ===============================
 title: "Diesel Global Logistics - Documentación"
-description: "Documentación técnica del proyecto de gestión de inventarios"
-baseurl: "/documentacion-proyecto-dgl"
-url: "https://daniolve17.github.io"
+description: "Documentación técnica del proyecto Plataforma Web de Gestión de Almacén y Embarques"
+baseurl: "/documentacion-proyecto-diesel-global"
+url: "https://daniolvera17.github.io"
 
+# ===============================
 # Tema de GitHub Pages
+# ===============================
 theme: jekyll-theme-cayman
 
-# Navegación del sitio
+# ===============================
+# Configuración de Markdown
+# ===============================
+markdown: kramdown
+highlighter: rouge
+
+# ===============================
+# Estructura de navegación
+# ===============================
 navigation:
-  - id: acta-constitutiva
-    title: "Acta Constitutiva"
+  - title: "Inicio"
+    url: /
+
+  - title: "Acta Constitutiva"
     url: /01-acta-constitutiva/
-    children:
-      - title: "Acta Constitutiva"
-        url: /01-acta-constitutiva/IndexA
-    
-  - id: scrum
-    title: "Scrum"
+
+  - title: "Scrum"
     children:
       - title: "Introducción"
         url: /02-scrum/
@@ -35,23 +45,21 @@ navigation:
         url: /02-scrum/sprint-6
       - title: "Sprint 7"
         url: /02-scrum/sprint-7
-        
-  - id: gestion
-    title: "Gestión del Proyecto"
+
+  - title: "Gestión del Proyecto"
     children:
       - title: "Introducción"
         url: /03-gestion-proyecto/
       - title: "Plan de Dirección"
         url: /03-gestion-proyecto/plan-direccion
-      - title: "EDT/WBS"
+      - title: "EDT / WBS"
         url: /03-gestion-proyecto/edt-wbs
       - title: "Cronograma"
         url: /03-gestion-proyecto/cronograma
       - title: "Presupuesto"
         url: /03-gestion-proyecto/presupuesto
-        
-  - id: alcance
-    title: "Alcance"
+
+  - title: "Alcance"
     children:
       - title: "Introducción"
         url: /04-alcance/
@@ -61,23 +69,21 @@ navigation:
         url: /04-alcance/requisitos-no-funcionales
       - title: "Matriz de Trazabilidad"
         url: /04-alcance/matriz-trazabilidad
-        
-  - id: analisis
-    title: "Análisis de Negocio"
+
+  - title: "Análisis de Negocio"
     children:
       - title: "Introducción"
         url: /05-analisis-negocio/
-      - title: "Análisis AS-IS"
+      - title: "AS-IS"
         url: /05-analisis-negocio/as-is
-      - title: "Análisis TO-BE"
+      - title: "TO-BE"
         url: /05-analisis-negocio/to-be
       - title: "Casos de Uso"
         url: /05-analisis-negocio/casos-uso
       - title: "Historias de Usuario"
         url: /05-analisis-negocio/historias-usuario
-        
-  - id: diseno
-    title: "Diseño del Sistema"
+
+  - title: "Diseño del Sistema"
     children:
       - title: "Introducción"
         url: /06-diseno/
@@ -89,11 +95,10 @@ navigation:
         url: /06-diseno/api-rest
       - title: "Diagramas UML"
         url: /06-diseno/diagramas-uml
-      - title: "UI/UX"
+      - title: "UI / UX"
         url: /06-diseno/ui-ux
-        
-  - id: desarrollo
-    title: "Desarrollo"
+
+  - title: "Desarrollo"
     children:
       - title: "Introducción"
         url: /07-desarrollo/
@@ -101,9 +106,8 @@ navigation:
         url: /07-desarrollo/backend
       - title: "Frontend"
         url: /07-desarrollo/frontend
-        
-  - id: calidad
-    title: "Calidad y Pruebas"
+
+  - title: "Calidad y Pruebas"
     children:
       - title: "Introducción"
         url: /08-calidad/
@@ -115,21 +119,29 @@ navigation:
         url: /08-calidad/casos-prueba
       - title: "Reporte QA"
         url: /08-calidad/reporte-qa
-        
-  - id: riesgos
-    title: "Gestión de Riesgos"
-    url: /09-riesgos/
-    
-  - id: interesados
-    title: "Interesados"
-    url: /10-interesados/
-    
-  - id: comunicaciones
-    title: "Comunicaciones"
-    url: /11-comunicaciones/
-    
-  - id: manuales
-    title: "Manuales"
+
+  - title: "Riesgos"
+    children:
+      - title: "Introducción"
+        url: /09-riesgos/
+      - title: "Registro de Riesgos"
+        url: /09-riesgos/registro-riesgos
+
+  - title: "Interesados"
+    children:
+      - title: "Introducción"
+        url: /10-interesados/
+      - title: "Registro de Interesados"
+        url: /10-interesados/registro-interesados
+
+  - title: "Comunicaciones"
+    children:
+      - title: "Introducción"
+        url: /11-comunicaciones/
+      - title: "Matriz de Comunicaciones"
+        url: /11-comunicaciones/matriz-comunicaciones
+
+  - title: "Manuales"
     children:
       - title: "Introducción"
         url: /12-manuales/
@@ -138,18 +150,29 @@ navigation:
       - title: "Manual Técnico"
         url: /12-manuales/manual-tecnico
 
-# Información del proyecto
+# ===============================
+# Datos del proyecto
+# ===============================
 project:
-  code: "PROJ-2025-001"
+  code: "PROJ-DGL-2025"
   version: "1.0"
   start_date: "19/09/2025"
   duration: "17 semanas"
   team_size: 8
 
-# Configuración de construcción
+# ===============================
+# Archivos y carpetas a excluir
+# ===============================
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+
+# ===============================
+# Plugins
+# ===============================
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
