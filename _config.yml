@@ -127,6 +127,14 @@ navigation:
   - id: comunicaciones
     title: "Comunicaciones"
     url: /11-comunicaciones/
+    children:
+      - title: "Introducción"
+        url: /11-comunicaciones/index
+      - title: "Plan de Comunicaciones"
+        url: /11-comunicaciones/plan-comunicaciones
+      - title: "Matriz de comunicaciones"
+        url: /11-comunicaciones/matriz-comunicaciones
+
     
   - id: manuales
     title: "Manuales"
