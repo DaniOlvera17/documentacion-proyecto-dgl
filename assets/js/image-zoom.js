@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     img.addEventListener('click', function() {
       modal.style.display = 'block';
+      document.body.classList.add('modal-open');
       modalImg.src = this.src;
       captionText.innerHTML = this.alt;
       zoomControls.style.display = 'block';
@@ -48,12 +49,14 @@ document.addEventListener('DOMContentLoaded', function() {
   // Cerrar modal
   closeBtn.addEventListener('click', function() {
     modal.style.display = 'none';
+    document.body.classList.remove('modal-open');
     currentScale = 1;
   });
   
   modal.addEventListener('click', function(e) {
     if (e.target === modal) {
       modal.style.display = 'none';
+      document.body.classList.remove('modal-open');
       currentScale = 1;
     }
   });
@@ -80,6 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
       modal.style.display = 'none';
+      document.body.classList.remove('modal-open');
       currentScale = 1;
     }
   });

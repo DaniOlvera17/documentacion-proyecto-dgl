@@ -844,3 +844,61 @@ pre code {
     font-size: 1.5rem;
   }
 }
+/* ========================================
+   FIX: Prevenir deformación del layout
+   ======================================== */
+
+/* Asegurar que el modal no afecte el layout */
+.image-modal {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 99999 !important;
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
+/* Prevenir scroll del body cuando el modal está abierto */
+body.modal-open {
+  overflow: hidden !important;
+}
+
+/* Centrar imagen en el modal */
+.image-modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+/* Asegurar que los controles estén siempre visibles */
+.zoom-controls {
+  position: fixed !important;
+  bottom: 30px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 100000 !important;
+}
+
+/* Fix para el sidebar - no debe moverse */
+.sidebar {
+  position: fixed !important;
+  z-index: 1000 !important;
+}
+
+/* Fix para el contenido principal */
+.main-content {
+  position: relative !important;
+}
+
+/* Las imágenes normales no deben ocupar espacio extra */
+.zoom-image {
+  display: block !important;
+  margin: 1rem auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
