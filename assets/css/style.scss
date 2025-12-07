@@ -710,6 +710,21 @@ pre code {
   border-radius: 8px;
   margin: 2rem 0;
   text-align: center;
+  
+  h2 {
+    color: white !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3) !important;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+  }
+  
+  p {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.125rem;
+    margin: 0;
+    font-weight: 300;
+  }
 }
 
 .highlight-section {
