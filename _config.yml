@@ -12,9 +12,6 @@ navigation:
   - id: acta-constitutiva
     title: "Acta Constitutiva"
     url: /01-acta-constitutiva/
-    children:
-      - title: "Acta Constitutiva"
-        url: /01-acta-constitutiva/index
     
   - id: scrum
     title: "Scrum"
@@ -119,10 +116,20 @@ navigation:
   - id: riesgos
     title: "Gestión de Riesgos"
     url: /09-riesgos/
+    children:
+      - title: "Introducción"
+        url: /09-riesgos/index
+      - title: "Registro de Riesgos"
+        url: /09-riesgos/registro-riesgos
     
   - id: interesados
     title: "Interesados"
     url: /10-interesados/
+    children:
+      - title: "Introducción"
+        url: /10-interesados/index 
+      - title: "Registro de Interesados"
+        url: /10-interesados/registro-interesados
     
   - id: comunicaciones
     title: "Comunicaciones"
