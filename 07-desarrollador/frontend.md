@@ -3,74 +3,68 @@ layout: default
 title: Desarrollo Frontend
 ---
 
-# 🖥️ Desarrollo Frontend
+# 🎨 Desarrollo Frontend
 
-Este documento describe el desarrollo del **Frontend** de la Plataforma Web de Gestión de Almacén y Embarques – Diesel Global Logistics Inc.
+En esta sección se documenta el desarrollo de la **interfaz gráfica de usuario (Frontend)** de la *Plataforma Web de Gestión de Almacén y Embarques – Diesel Global Logistics Inc.*
 
-El frontend es responsable de la experiencia de usuario, la interacción visual y la conexión con la API.
+El frontend es responsable de la interacción directa con el usuario.
+
+---
+
+## 🎯 Objetivo del Frontend
+
+- Proporcionar una interfaz clara y fácil de usar.
+- Garantizar una navegación fluida entre módulos.
+- Permitir la correcta interacción con el backend.
+
+---
+
+## 🧩 Estructura de la Interfaz
+
+### ⚙️ Flujo de Navegación
+
+El flujo principal de la aplicación es:
+
+1. Pantalla de **Inicio de Sesión**
+2. **Dashboard** principal
+3. Menú lateral de navegación
+4. Acceso a los módulos:
+   - 📦 Inventarios
+   - 🚚 Embarques
+   - 📊 Reportes
+   - ⚙️ Administración
+
+---
+
+## 🎨 Diseño de la Interfaz
+
+Se aplicaron las siguientes prácticas:
+
+- Diseño responsivo.
+- Uso de componentes reutilizables.
+- Paleta de colores institucional.
+- Accesibilidad básica (WCAG 2.1).
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
-| Componente | Tecnología |
-|------------|------------|
-| Lenguaje | HTML5 |
-| Estilos | CSS3 |
-| Lógica | JavaScript |
-| Framework | React.js |
-| Librerías adicionales | Axios, Bootstrap |
-| Control de versiones | Git + GitHub |
-
+| Categoría | Tecnología |
+|----------|------------|
+| Lenguajes | HTML5, CSS3, JavaScript |
+| Framework (UI) | React.js |
+| Gestor de estado | useState, useEffect |
+| Control de rutas | React Router |
 
 ---
 
-## 🧩 Componentes Principales
+## 🔗 Conexión con Backend
 
-| Componente | Función |
-|------------|---------|
-| Login | Autenticación de usuarios |
-| Inventarios | CRUD de materiales |
-| Embarques | Gestión visual de embarques |
-| Reportes | Generación de reportes |
-| Dashboard | Visualización de métricas |
-| Avatar | Asistente virtual interactivo |
+El frontend se comunica con el backend mediante:
 
----
-
-## 🔗 Consumo de la API
-
-La comunicación con el backend se realiza usando **Axios**:
-
-Ejemplo de consumo:
-
-```js
-axios.get("/api/v1/inventarios")
-  .then(res => setInventarios(res.data))
-  .catch(err => console.error(err))
-```
-
-## 🎨 Diseño de la Interfaz
-
-Se aplicaron:
-
-- Diseño responsivo
-- Componentes reutilizables
-- Paleta de colores institucional
-- Accesibilidad básica (WCAG)
-
----
-
-## ⚙️ Flujo de Navegación
-
-1. Login  
-2. Dashboard  
-3. Menú lateral  
-4. Acceso a módulos:
-   - Inventarios
-   - Embarques
-   - Reportes
-   - Administración
+- Fetch API
+- Axios
+- Tokens JWT
 
 ---
 
@@ -80,28 +74,36 @@ Se realizaron:
 
 - Pruebas manuales de interfaz
 - Pruebas de experiencia de usuario (UX)
-- Validaciones de formularios
+- Validaciones automáticas de formularios
 
 ---
 
-## ✅ Buenas Prácticas
+## ✅ Buenas Prácticas Aplicadas
 
 - Componentización
-- Separación de lógica
+- Separación de lógica y presentación
 - Uso de hooks (`useState`, `useEffect`)
 - Manejo centralizado de errores
 
 ---
 
-## 🎯 Objetivo del Frontend
+## 📦 Entregables del Frontend
 
-- Interfaz clara y amigable
-- Alta usabilidad
-- Integración completa con backend
-- Preparado para producción
+| Entregable | Estado |
+|------------|--------|
+| Interfaz completa | ✅ Lista |
+| Integración con backend | ✅ Completa |
+| Formularios validados | ✅ Operativos |
+| Diseño responsivo | ✅ Implementado |
 
 ---
 
-[← Volver a Desarrollo](index)
+## 🔗 Navegación
 
+- [← Volver a Desarrollo](index)
+- [Ir a Calidad y Pruebas →](../08-calidad/)
 
+---
+
+*Documento generado: 2025*  
+*Versión: 1.0*
