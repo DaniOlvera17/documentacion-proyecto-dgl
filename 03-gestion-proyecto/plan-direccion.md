@@ -10,7 +10,7 @@ title: Plan para la Dirección del Proyecto
 **Gestor:** Ángel Elías Romero Paulín  
 **Documentador:** Daniel Olvera Romero  
 **Metodología:** Scrum (7 sprints)  
-**Herramientas:** Asana (gestión), GitHub (control versión y Pages), Figma (diseño), Postman, Jest/Cypress (QA)
+**Herramientas:** Jira (gestión), GitHub (control versión y Pages), Figma (diseño), Postman, Jest/Cypress (QA)
 
 ---
 
@@ -55,7 +55,7 @@ Este documento regula:
 - Herramienta de control: Asana + tablero Scrum.
 
 ### 5.3 Gestión de Costos
-- Presupuesto total estimado: **USD 50,000**.
+- Presupuesto total estimado: **50,000 MXN**.
 - Control por sprint y ítems (ver `presupuesto.md`).
 
 ### 5.4 Gestión de la Calidad
