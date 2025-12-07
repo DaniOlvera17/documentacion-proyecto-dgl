@@ -275,7 +275,7 @@ Desarrollar una plataforma web de gestión de almacén y embarques para Diesel G
 | **Diseñador 2** | Luis Fernando Loma Navarrete | Creación de interfaces gráficas y experiencia de usuario |
 | **Desarrollador** | Esteban Reséndiz Urquiza | Implementación de la lógica del sistema y programación de la plataforma |
 | **QA** | Raúl Mejía Reséndiz | Prevenir y encontrar errores, cumplimiento de estándares de calidad |
-| **Tester** | Roberto Joshua García Solís | Realizar pruebas funcionales, detectar errores y validar la calidad del software |
+| **Tester** | Omar Garcia Perrusquia| Realizar pruebas funcionales, detectar errores y validar la calidad del software |
 | **Documentador** | Daniel Olvera Romero | Elaboración de documentación técnica, funcional, manuales de usuario y reportes de avance |
 
 ---
