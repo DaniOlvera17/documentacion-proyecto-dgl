@@ -35,7 +35,7 @@ Este cronograma define la planificación temporal del proyecto bajo una estructu
 # 🟦 Vista Gantt
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/gantt-proyecto.png" alt="Vista Gantt" width="2086px">
+  <img src="../assets/images/gantt-proyecto.png" alt="Vista Gantt" width="100%">
 </p>
 
 ---
