@@ -2,112 +2,76 @@
 
 Documentación completa del proyecto de **Plataforma Web de Gestión de Inventarios y Embarques** para Diesel Global Logistics Inc.
 
-🌐 **Sitio web:** [https://daniolvera17.github.io/documentacion-proyecto-diesel-global/](https://daniolvera17.github.io/documentacion-proyecto-diesel-global/)
 
----
-
-## 🚀 Inicio Rápido
-
-### Visualizar la documentación localmente
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/daniolvera17/documentacion-proyecto-diesel-global.git
-cd documentacion-proyecto-diesel-global
-
-# 2. (Opcional) Instalar Jekyll para preview local
-gem install bundler jekyll
-bundle install
-
-# 3. Ejecutar servidor local
-bundle exec jekyll serve
-
-# 4. Abrir en navegador
-# http://localhost:4000
-```
-
----
 
 ## 📁 Estructura del Proyecto
 
 ```
 documentacion-proyecto-diesel-global/
-├── _config.yml                     # Configuración de Jekyll
-├── index.md                        # Página principal
-├── README.md                       # Este archivo
+├── _config.yml
+├── index.md
+├── README.md
 ├── assets/
 │   ├── css/
-│   │   └── style.css              # Estilos personalizados
+│   │   └── style.css
 │   ├── images/
-│   │   └── logo.png               # Logo del proyecto
+│   │   └── logo.png
 │   └── js/
-│       └── main.js                # JavaScript (si es necesario)
-│
+│       └── main.js
 ├── 01-acta-constitutiva/
-│   └── index.md                   # Acta de constitución del proyecto
-│
+│   └── index.md
 ├── 02-scrum/
-│   ├── index.md                   # Índice de metodología Scrum
-│   ├── sprint-1.md                # Sprint 1: Gestión y Planificación
-│   ├── sprint-2.md                # Sprint 2: Análisis de Requisitos
-│   ├── sprint-3.md                # Sprint 3: Diseño del Sistema
-│   ├── sprint-4.md                # Sprint 4: Desarrollo Backend
-│   ├── sprint-5.md                # Sprint 5: Desarrollo Frontend
-│   ├── sprint-6.md                # Sprint 6: Pruebas y Validaciones
-│   └── sprint-7.md                # Sprint 7: Implementación y Cierre
-│
+│   ├── index.md
+│   ├── sprint-1.md
+│   ├── sprint-2.md
+│   ├── sprint-3.md
+│   ├── sprint-4.md
+│   ├── sprint-5.md
+│   ├── sprint-6.md
+│   └── sprint-7.md
 ├── 03-gestion-proyecto/
-│   ├── index.md                   # Índice de gestión
-│   ├── plan-direccion.md          # Plan de dirección del proyecto
-│   ├── edt-wbs.md                 # EDT/WBS
-│   ├── cronograma.md              # Cronograma del proyecto
-│   └── presupuesto.md             # Presupuesto detallado
-│
+│   ├── index.md
+│   ├── plan-direccion.md
+│   ├── edt-wbs.md
+│   ├── cronograma.md
+│   └── presupuesto.md
 ├── 04-alcance/
 │   ├── index.md
 │   ├── requisitos-funcionales.md
 │   ├── requisitos-no-funcionales.md
 │   └── matriz-trazabilidad.md
-│
 ├── 05-analisis-negocio/
 │   ├── index.md
-│   ├── as-is.md                   # Análisis de procesos actuales
-│   ├── to-be.md                   # Análisis de procesos propuestos
-│   ├── casos-uso.md               # Casos de uso del sistema
-│   └── historias-usuario.md       # Historias de usuario
-│
+│   ├── as-is.md
+│   ├── to-be.md
+│   ├── casos-uso.md
+│   └── historias-usuario.md
 ├── 06-diseno/
 │   ├── index.md
-│   ├── arquitectura.md            # Arquitectura del sistema
-│   ├── base-datos.md              # Diseño de base de datos
-│   ├── api-rest.md                # Documentación de API
-│   ├── diagramas-uml.md           # Diagramas UML
-│   └── ui-ux.md                   # Diseño de interfaz
-│
+│   ├── arquitectura.md
+│   ├── base-datos.md
+│   ├── api-rest.md
+│   ├── diagramas-uml.md
+│   └── ui-ux.md
 ├── 07-desarrollo/
 │   ├── index.md
-│   ├── backend.md                 # Documentación backend
-│   └── frontend.md                # Documentación frontend
-│
+│   ├── backend.md
+│   └── frontend.md
 ├── 08-calidad/
 │   ├── index.md
 │   ├── plan-calidad.md
 │   ├── estrategia-testing.md
 │   ├── casos-prueba.md
 │   └── reporte-qa.md
-│
 ├── 09-riesgos/
 │   ├── index.md
 │   └── registro-riesgos.md
-│
 ├── 10-interesados/
 │   ├── index.md
 │   └── registro-interesados.md
-│
 ├── 11-comunicaciones/
 │   ├── index.md
 │   └── matriz-comunicaciones.md
-│
 └── 12-manuales/
     ├── index.md
     ├── manual-usuario.md

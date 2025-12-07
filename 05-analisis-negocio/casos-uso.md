@@ -335,7 +335,6 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 
 ---
 # 📊 MÓDULO: Reportes
-
 ---
 
 ## CU-16 – Generar Reporte de Inventario

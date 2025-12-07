@@ -32,10 +32,10 @@ Este cronograma define la planificación temporal del proyecto bajo una estructu
 
 ---
 
-# 🟦 Vista Gantt (Simplificada)
+# 🟦 Vista Gantt
 
 <p align="center">
-  <img src="/assets/imgenes/gantt-proyecto.png" alt="Vista Gantt" width="900px">
+  <img src="/assets/imgenes/gantt-proyecto.png" alt="Vista Gantt" width="2086px">
 </p>
 
 ---
