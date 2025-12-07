@@ -23,7 +23,7 @@ Este diagrama muestra la interacción entre los actores del sistema y las funcio
 📌 **Imagen:**
 
 <p align="center">
-  <img src="../assets/images/uml-casos-uso.png" alt="Diagrama de Casos de Uso" width="2086px">
+  <img src="../assets/images/uml-casos-uso.png" alt="Diagrama de Casos de Uso" width="100%">
 </p>
 
 ---
@@ -35,7 +35,7 @@ Representa la estructura del sistema mostrando las clases principales y sus rela
 📌 **Imagen:**
 
 <p align="center">
-  <img src="../assets/images/uml-diagrama-clases.png" alt="Diagrama de Clases" width="800px">
+  <img src="../assets/images/uml-diagrama-clases.png" alt="Diagrama de Clases" width="100%">
 </p>
 
 ---
@@ -47,7 +47,7 @@ Muestra el flujo de interacción entre el usuario, la interfaz, la API y la base
 📌 **Imagen:**
 
 <p align="center">
-  <img src="../assets/images/uml-secuencia-registro-material.png" alt="Diagrama de Secuencia Registro" width="800px">
+  <img src="../assets/images/uml-secuencia-registro-material.png" alt="Diagrama de Secuencia Registro" width="100%">
 </p>
 
 ---
@@ -59,7 +59,7 @@ Representa el proceso de creación de una orden de embarque.
 📌 **Imagen:**
 
 <p align="center">
-  <img src="../assets/images/uml-secuencia-embarque.png" alt="Diagrama de Secuencia Embarque" width="800px">
+  <img src="../assets/images/uml-secuencia-embarque.png" alt="Diagrama de Secuencia Embarque" width="100%">
 </p>
 
 ---
@@ -71,7 +71,7 @@ Muestra el flujo de actividades desde la creación hasta la validación de un em
 📌 **Imagen:**
 
 <p align="center">
-  <img src="../assets/images/uml-actividades-embarque.png" alt="Diagrama de Actividades Embarque" width="800px">
+  <img src="../assets/images/uml-actividades-embarque.png" alt="Diagrama de Actividades Embarque" width="100%">
 </p>
 
 [← Volver al Diseño del Sistema](index)
