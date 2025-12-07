@@ -242,10 +242,10 @@ Final: 0 pts ✔ COMPLETADO
 
 | # | Acción | Responsable | Fecha |
 |---|--------|-------------|--------|
-| 1 | Completar manual de usuario final | Documentador | 30/12 |
-| 2 | Generar memoria técnica | Documentador + Desarrollador | 02/01 |
-| 3 | Preparar despliegue final | DevOps / Desarrollador | 03/01 |
-| 4 | Crear presentación de resultados | Gestor | 04/01 |
+| 1 | Completar manual de usuario final | Documentador | 30/11 |
+| 2 | Generar memoria técnica | Documentador + Desarrollador | 02/12 |
+| 3 | Preparar despliegue final | DevOps / Desarrollador | 03/12 |
+| 4 | Crear presentación de resultados | Gestor | 04/12 |
 
 ---
 

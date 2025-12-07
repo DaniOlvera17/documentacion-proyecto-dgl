@@ -16,7 +16,7 @@ Este apartado documenta la gestión ágil del proyecto **Plataforma Web de Gesti
 | Metodología | SCRUM |
 | Duración total | 7 Sprints |
 | Lugar de desarrollo | Querétaro, México |
-| Herramienta de gestión | Asana |
+| Herramienta de gestión | Jira |
 | Reuniones diarias | Daily Scrum (15 minutos) |
 
 ---
@@ -25,11 +25,11 @@ Este apartado documenta la gestión ágil del proyecto **Plataforma Web de Gesti
 
 | Sprint | Nombre | Duración | Enlace |
 |--------|--------|----------|--------|
-| 🟢 Sprint 1 | Gestión y Planificación | 2 semanas | [Ver Sprint 1](sprint-1) |
-| 🔵 Sprint 2 | Definición y Análisis de Requisitos | 2 semanas | [Ver Sprint 2](sprint-2) |
-| 🟠 Sprint 3 | Diseño del Sistema | 3 semanas | [Ver Sprint 3](sprint-3) |
-| 🟣 Sprint 4 | Desarrollo Backend | 3 semanas | [Ver Sprint 4](sprint-4) |
-| 🟡 Sprint 5 | Desarrollo Frontend e Integración | 3 semanas | [Ver Sprint 5](sprint-5) |
+| 🟢 Sprint 1 | Gestión y Planificación | 1 semana | [Ver Sprint 1](sprint-1) |
+| 🔵 Sprint 2 | Definición y Análisis de Requisitos | 1 semana | [Ver Sprint 2](sprint-2) |
+| 🟠 Sprint 3 | Diseño del Sistema | 2 semanas | [Ver Sprint 3](sprint-3) |
+| 🟣 Sprint 4 | Desarrollo Backend | 2 semanas | [Ver Sprint 4](sprint-4) |
+| 🟡 Sprint 5 | Desarrollo Frontend e Integración | 1 semana | [Ver Sprint 5](sprint-5) |
 | 🔴 Sprint 6 | Pruebas y Validaciones | 2 semanas | [Ver Sprint 6](sprint-6) |
 | ⚫ Sprint 7 | Implementación, Capacitación y Cierre | 2 semanas | [Ver Sprint 7](sprint-7) |
 
