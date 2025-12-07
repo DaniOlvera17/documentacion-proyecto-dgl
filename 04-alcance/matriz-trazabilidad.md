@@ -905,27 +905,36 @@ Actualización de la Matriz
     <li><strong>Se cambian objetivos:</strong> Re-trazar todos los requisitos afectados</li>
   </ol>
 </div>
-Responsable de Mantenimiento
+
+## Responsable de Mantenimiento
+
 <div class="info-box">
   <strong>Responsable:</strong> José Pedro Cruz Ramírez (Analista)<br>
   <strong>Frecuencia de Revisión:</strong> Al inicio de cada Sprint<br>
   <strong>Aprobación de Cambios:</strong> Gestor del Proyecto + Sponsor
 </div>
 
-🔗 Referencias Cruzadas
+---
 
-📄 Acta Constitutiva - Objetivos del proyecto
-📋 Requisitos Funcionales - Detalle de RF
-🔧 Requisitos No Funcionales - Detalle de RNF
-🎯 Casos de Uso - Flujos de usuario
-📖 Historias de Usuario - Perspectiva del usuario
+## 🔗 Referencias Cruzadas
 
+- 📄 [Acta Constitutiva - Objetivos del proyecto](../01-acta-constitutiva/acta-constitutiva.md)
+- 📋 [Requisitos Funcionales - Detalle de RF](../02-requisitos/requisitos-funcionales.md)
+- 🔧 [Requisitos No Funcionales - Detalle de RNF](../02-requisitos/requisitos-no-funcionales.md)
+- 🎯 [Casos de Uso - Flujos de usuario](../03-casos-de-uso/casos-de-uso.md)
+- 📖 [Historias de Usuario - Perspectiva del usuario](../05-historias-usuario/historias-usuario.md)
 
-📝 Control de Cambios
-VersiónFechaCambiosResponsable1.003/12/2025Versión inicial de la matriz de trazabilidadJosé Pedro Cruz Ramírez
+---
+
+## 📝 Control de Cambios
+
+| Versión | Fecha | Cambios | Responsable |
+|---------|-------|---------|-------------|
+| 1.0 | 03/12/2025 | Versión inicial de la matriz de trazabilidad | José Pedro Cruz Ramírez |
+
+---
 
 <div class="text-center text-gray">
   <small>Última actualización: 3 de diciembre de 2025</small><br>
   <small>© 2025 Diesel Global Logistics Inc.</small>
-</div></parameter>
-<parameter name="old_str">### Ejemplo de Análisis de Impac</parameter>
+</div>
