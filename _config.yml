@@ -93,7 +93,7 @@ navigation:
     title: "Desarrollo"
     children:
       - title: "Introducción"
-        url: /07-desarrollo/
+        url: /07-desarrollo/index
       - title: "Backend"
         url: /07-desarrollo/backend
       - title: "Frontend"
