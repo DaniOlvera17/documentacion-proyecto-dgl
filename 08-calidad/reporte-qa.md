@@ -15,7 +15,7 @@ Este documento presenta los resultados de las actividades de calidad ejecutadas 
 |------|---------|
 | Proyecto | Plataforma Web de Gestión de Almacén y Embarques |
 | Responsable QA | Raúl Mejía Reséndiz |
-| Tester | Roberto Joshua García Solís / Omar Garcia Perrusquia|
+| Tester | Omar Garcia Perrusquia|
 | Fecha del reporte | 26/11/2025 |
 | Versión del sistema | v1.0 RC |
 

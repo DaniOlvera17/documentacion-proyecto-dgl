@@ -190,7 +190,7 @@ Diseñar la arquitectura técnica del sistema, la base de datos relacional, los 
 
 ---
 
-## 🧪 Tester (Roberto Joshua García Solís)
+## 🧪 Tester (Omar Garcia Perrusquia)
 
 ### Actividades
 - ✔ Preparar casos de prueba futuros basados en diseño  

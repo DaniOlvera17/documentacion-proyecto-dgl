@@ -193,7 +193,7 @@ Desarrollar el backend completo del sistema, implementando la base de datos, mod
 
 ---
 
-## 🧪 Tester (Roberto Joshua García Solís)
+## 🧪 Tester (Omar Garcia Perrusquia)
 
 ### Actividades
 - ✔ Elaborar casos de prueba basados en API  

@@ -173,7 +173,7 @@ Características:
 
 ---
 
-## 🧪 Tester (Roberto Joshua García Solís)
+## 🧪 Tester (Omar Garcia Perrusquia)
 
 ### Actividades
 - ✔ Pruebas E2E del avatar

@@ -16,6 +16,7 @@ title: Acta Constitutiva
 |-------------------------------------|-------|----------|
 | PROJ-2025-001 | 16/09/2025 | Gestor Ing. Elías |
 | PROJ-2025-002 | 24/10/2025 | Gestor Ing. Elías |
+| PROJ-2025-003 | 01/12/2025 | Gestor Ing. Elías |
 
 ---
 
@@ -230,10 +231,10 @@ Desarrollar una plataforma web de gestión de almacén y embarques para Diesel G
 | Hito | Semana | Estado |
 |------|--------|--------|
 | ✅ Aprobación de requerimientos | Semana 2 | <span class="badge badge-success">Completado</span> |
-| ✅ Backend funcional con BD | Semana 6 | <span class="badge badge-info">Completado</span> |
-| ✅ Frontend integrado | Semana 9 | <span class="badge badge-warning">Completado</span> |
-| ✅ Validación QA | Semana 11 | <span class="badge badge-warning">Completado</span> |
-| ✅ Despliegue final | Semana 12 | <span class="badge badge-warning">Completado</span> |
+| ✅ Backend funcional con BD | Semana 6 | <span class="badge badge-success">Completado</span> |
+| ✅ Frontend integrado | Semana 9 | <span class="badge badge-success">Completado</span> |
+| ✅ Validación QA | Semana 11 | <span class="badge badge-success">Completado</span> |
+| ✅ Despliegue final | Semana 12 | <span class="badge badge-success">Completado</span> |
 
 ---
 

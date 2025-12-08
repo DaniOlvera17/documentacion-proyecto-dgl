@@ -56,7 +56,7 @@ El proyecto se rige por los siguientes estándares:
 |-----|-------------|-------------------|
 | Gestor del Proyecto | Ángel Elías Romero Paulín | Aprobar plan de calidad |
 | QA | Raúl Mejía Reséndiz | Supervisar actividades de calidad |
-| Tester | Roberto Joshua García Solís | Ejecutar pruebas |
+| Tester | Omar Garcia Perrusquia | Ejecutar pruebas |
 | Desarrollador | Esteban Reséndiz Urquiza | Corregir defectos |
 | Documentador | Daniel Olvera Romero | Validar calidad de la documentación |
 

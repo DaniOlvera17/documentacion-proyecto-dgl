@@ -166,7 +166,7 @@ Este sprint busca establecer **qué debe hacer el sistema**, sentando las bases 
 
 ---
 
-## 🧪 Tester (Roberto Joshua García)
+## 🧪 Tester (Omar Garcia Perrusquia)
 
 ### Documentación Generada:
 - Matriz de casos de prueba base
