@@ -134,7 +134,7 @@ Aquí encontrarás la información de gestión, análisis, diseño, desarrollo, 
 | Código del proyecto | PROJ-2025-001 |
 | Empresa | Diesel Global Logistics Inc. |
 | Metodología | Scrum |
-| Estado | En desarrollo |
+| Estado | Finalizado |
 
 ---
 
