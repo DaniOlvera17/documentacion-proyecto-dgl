@@ -32,6 +32,9 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Urgencia** | Alta |
 | **Comentarios** | Es necesario para acceder a todas las funciones del sistema. |
 
+<p align="center">
+  <img src="../assets/images/CU-01.png" alt="Iniciar Sesión" width="100%">
+</p>
 ---
 
 ## RF-02 – Cerrar Sesión
@@ -53,6 +56,9 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Urgencia** | Media |
 | **Comentarios** | Mejora la seguridad del sistema. |
 
+<p align="center">
+  <img src="../assets/images/CU-02.png" alt="Cerrar Sesión" width="100%">
+</p>
 ---
 
 ## RF-03 – Gestión de Usuarios
@@ -74,6 +80,9 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Urgencia** | Alta |
 | **Comentarios** | Función crítica para la administración del sistema. |
 
+<p align="center">
+  <img src="../assets/images/CU-03.png" alt="Gestión de Usuarios" width="100%">
+</p>
 ---
 
 ## RF-04 – Asignar Roles y Permisos
@@ -94,6 +103,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Importancia** | Alta |
 | **Urgencia** | Media |
 | **Comentarios** | Asegura la confidencialidad y control del sistema. |
+
+<p align="center">
+  <img src="../assets/images/CU-04.png" alt="Asignar Roles y Permisos" width="100%">
+</p>
 
 ---
 # 📦 MÓDULO: Gestión de Inventarios
@@ -118,6 +131,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Urgencia** | Alta |
 | **Comentarios** | Es una función base para el control del almacén. |
 
+<p align="center">
+  <img src="../assets/images/CU-05.png" alt="Registrar Material" width="100%">
+</p>
+
 ---
 
 ## CU-06 – Consultar Inventario
@@ -138,6 +155,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Importancia** | Alta |
 | **Urgencia** | Media |
 | **Comentarios** | Permite la consulta en tiempo real. |
+
+<p align="center">
+  <img src="../assets/images/CU-06.png" alt="Consultar Inventario" width="100%">
+</p>
 
 ---
 
@@ -160,6 +181,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Urgencia** | Alta |
 | **Comentarios** | Evita desabasto o sobreinventario. |
 
+<p align="center">
+  <img src="../assets/images/CU-07.png" alt="Actualizar Stock" width="100%">
+</p>
+
 ---
 
 ## CU-08 – Eliminar Material
@@ -180,6 +205,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Importancia** | Media |
 | **Urgencia** | Baja |
 | **Comentarios** | Requiere control para evitar pérdidas de información. |
+
+<p align="center">
+  <img src="../assets/images/CU-08.png" alt="Eliminar Material" width="100%">
+</p>
 
 ---
 
@@ -202,6 +231,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Urgencia** | Media |
 | **Comentarios** | Mejora la trazabilidad. |
 
+<p align="center">
+  <img src="../assets/images/CU-09.png" alt="Generar Código QR" width="100%">
+</p>
+
 ---
 
 ## CU-10 – Escanear Código QR
@@ -222,6 +255,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Importancia** | Alta |
 | **Urgencia** | Media |
 | **Comentarios** | Reduce errores manuales. |
+
+<p align="center">
+  <img src="../assets/images/CU-10.png" alt="Escanear Código QR" width="100%">
+</p>
 
 ---
 
@@ -244,6 +281,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Importancia** | Alta |
 | **Urgencia** | Alta |
 | **Comentarios** | Permite auditoría del inventario. |
+
+<p align="center">
+  <img src="../assets/images/CU-11.png" alt="Registrar Movimiento de Inventario" width="100%">
+</p>
 
 ---
 # 🚚 MÓDULO: Gestión de Embarques
@@ -269,6 +310,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Urgencia** | Alta |
 | **Comentarios** | Es el proceso principal del módulo de logística. |
 
+<p align="center">
+  <img src="../assets/images/CU-12.png" alt="Crear Orden de Embarque" width="100%">
+</p>
+
 ---
 
 ## CU-13 – Asignar Materiales a Embarque
@@ -289,6 +334,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Importancia** | Alta |
 | **Urgencia** | Alta |
 | **Comentarios** | Evita errores en la preparación de pedidos. |
+
+<p align="center">
+  <img src="../assets/images/CU-13.png" alt="Asignar Materiales a Embarque" width="100%">
+</p>
 
 ---
 
@@ -311,6 +360,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Urgencia** | Media |
 | **Comentarios** | Reduce errores en envíos. |
 
+<p align="center">
+  <img src="../assets/images/CU-14.png" alt="Validar Embarque con Código QR" width="100%">
+</p>
+
 ---
 
 ## CU-15 – Consultar Estado del Embarque
@@ -332,6 +385,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Importancia** | Media |
 | **Urgencia** | Media |
 | **Comentarios** | Facilita el seguimiento logístico. |
+
+<p align="center">
+  <img src="../assets/images/CU-15.png" alt="Consultar Estado del Embarque" width="100%">
+</p>
 
 ---
 # 📊 MÓDULO: Reportes
@@ -356,6 +413,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Urgencia** | Media |
 | **Comentarios** | Útil para auditorías y control interno. |
 
+<p align="center">
+  <img src="../assets/images/CU-16.png" alt="Generar Reporte de Inventario" width="100%">
+</p>
+
 ---
 
 ## CU-17 – Generar Reporte de Embarques
@@ -378,6 +439,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Urgencia** | Media |
 | **Comentarios** | Ayuda en la toma de decisiones. |
 
+<p align="center">
+  <img src="../assets/images/CU-17.png" alt="Generar Reporte de Embarques" width="100%">
+</p>
+
 ---
 
 ## CU-18 – Visualizar Dashboard
@@ -399,6 +464,10 @@ Este documento describe los casos de uso del sistema, organizados por módulos f
 | **Importancia** | Media |
 | **Urgencia** | Baja |
 | **Comentarios** | Proporciona una visión general del sistema. |
+
+<p align="center">
+  <img src="../assets/images/CU-18.png" alt="Visualizar Dashboard" width="100%">
+</p>
 
 ---
 

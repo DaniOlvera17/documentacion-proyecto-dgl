@@ -23,7 +23,7 @@ Este diagrama muestra la interacción entre los actores del sistema y las funcio
 📌 **Imagen:**
 
 <p align="center">
-  <img src="../assets/images/uml-casos-uso.png" alt="Diagrama de Casos de Uso" width="70%">
+  <img src="../assets/images/uml-casos-uso.png" alt="Diagrama de Casos de Uso" width="80%">
 </p>
 
 ---

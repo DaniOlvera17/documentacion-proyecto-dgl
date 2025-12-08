@@ -6,7 +6,7 @@ title: Acta Constitutiva
 # 📄 Acta Constitutiva del Proyecto
 
 <div class="info-box">
-  <strong>Documento:</strong> Acta de Constitución de Proyecto de TIC<br>
+  <strong>Documento:</strong> Acta de Constitución de Proyecto<br>
   <strong>Empresa:</strong> Diesel Global Logistics Inc.
 </div>
 
