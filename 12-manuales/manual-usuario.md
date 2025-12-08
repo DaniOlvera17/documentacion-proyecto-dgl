@@ -62,7 +62,7 @@ La **Plataforma Web de Diesel Global** es una solución tecnológica diseñada p
 
 1. Abra su navegador web e ingrese a la URL proporcionada por su administrador:
    ```
-   https://dieselglobal-platform.com
+   Un ejemplo: https://dieselglobal-platform.com
    ```
 
 2. En la pantalla de inicio de sesión, encontrará dos campos:
