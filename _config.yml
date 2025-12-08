@@ -88,6 +88,8 @@ navigation:
         url: /06-diseno/diagramas-uml
       - title: "UI/UX"
         url: /06-diseno/ui-ux
+      - title: "Informe de diseño"
+        url: /06-diseno/informe
         
   - id: desarrollo
     title: "Desarrollo"
