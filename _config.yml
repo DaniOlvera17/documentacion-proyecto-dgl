@@ -127,17 +127,17 @@ navigation:
         url: /09-riesgos/index
       - title: "Registro de Riesgos"
         url: /09-riesgos/registro-riesgos
-      - title: "Introducción"
+      - title: "Politica de Seguridad"
         url: /09-riesgos/politica-seguridad
-      - title: "Registro de Riesgos"
+      - title: "Analisis de amenazas"
         url: /09-riesgos/analisis-amenazas
-      - title: "Introducción"
+      - title: "Controles de seguridad"
         url: /09-riesgos/controles-seguridad
-      - title: "Registro de Riesgos"
+      - title: "Plan de incidentes"
         url: /09-riesgos/plan-incidentes
-      - title: "Introducción"
+      - title: "Plan de continuidad"
         url: /09-riesgos/plan-continuidad
-      - title: "Registro de Riesgos"
+      - title: "Auditoria de seguridad"
         url: /09-riesgos/auditoria-seguridad
 
   - id: interesados
