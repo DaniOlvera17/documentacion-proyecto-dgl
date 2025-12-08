@@ -53,8 +53,8 @@ La **Plataforma Web de Diesel Global** es una solución tecnológica diseñada p
 ## 2. Acceso al Sistema
 
 <p align="center">
-  <img src="../assets/images/manual/login-screen.jpeg" alt="Ilustración 1: Inicio de Sesión" width="100%">
-  *Ilustración 1: Inicio de Sesión*
+  <img src="../assets/images/manual/login-screen.jpeg" alt="Ilustración 1: Inicio de Sesión" width="80%">
+  Ilustración 1: Inicio de Sesión
 </p>
 
 ### 2.1 Iniciar Sesión
@@ -67,8 +67,8 @@ La **Plataforma Web de Diesel Global** es una solución tecnológica diseñada p
 2. En la pantalla de inicio de sesión, encontrará dos campos:
 
 <p align="center">
-  <img src="../assets/images/manual/login-form.jpeg" alt="Ilustración 1: Inicio de Sesión" width="100%">
-  *Ilustración 2: Ingresar Credenciales*
+  <img src="../assets/images/manual/login-form.jpeg" alt="Ilustración 2: Ingresar Credenciales" width="60%">
+  Ilustración 2: Ingresar Credenciales
 </p> 
 
    - **Usuario:** Ingrese su nombre de usuario asignado
@@ -94,8 +94,10 @@ El sistema cuenta con diferentes roles, cada uno con permisos específicos:
 
 ## 3. Panel Principal
 
-![Panel Principal del Sistema](../../assets/images/manual/dashboard-main.png)  
-*Ilustración 3: Vista del Panel Principal*
+<p align="center">
+  <img src="../assets/images/manual/dashboard-main.jpeg" alt="Ilustración 3: Vista del Panel Principal" width="60%">
+  Ilustración 3: Vista del Panel Principal
+</p> 
 
 ### 3.1 Descripción General
 
@@ -103,17 +105,22 @@ Al iniciar sesión, accederá al Panel Principal, que muestra:
 
 - **Barra Superior:** Logo de Diesel Global, nombre del usuario actual y botón de cerrar sesión
 
-  ![Barra de Navegación Superior](../../assets/images/manual/navbar-top.png)
+<p align="center">
+  <img src="../assets/images/manual/navbar-top.jpeg" alt="Barra de Navegación Superior" width="60%">
+</p> 
 
 - **Título:** "Panel Principal - Diesel Global" con icono de camión 🚛
 
 - **Mensaje de Bienvenida:** Personalizado con su nombre
 
-  ![Mensaje de Bienvenida](../../assets/images/manual/welcome-message.png)
+<p align="center">
+  <img src="../assets/images/manual/welcome-message.jpeg" alt="Mensaje de Bienvenida" width="60%">
+</p> 
 
 - **Tarjetas de Acceso:** Seis módulos principales del sistema
-
-  ![Tarjetas de Módulos](../../assets/images/manual/module-cards.png)
+<p align="center">
+  <img src="../assets/images/manual/module-cards.jpeg" alt="Tarjetas de Módulos" width="60%">
+</p> 
 
 ### 3.2 Módulos Disponibles
 
@@ -150,15 +157,18 @@ Al iniciar sesión, accederá al Panel Principal, que muestra:
 ---
 
 ## 4. Gestión de Clientes
-
-![Módulo de Gestión de Clientes](../../assets/images/manual/clientes-main.png)  
-*Ilustración 4: Vista del Módulo de Clientes*
+<p align="center">
+  <img src="../assets/images/manual/clientes-main.jpeg" alt="Ilustración 4: Vista del Módulo de Clientes" width="60%">
+  Ilustración 4: Vista del Módulo de Clientes
+</p> 
 
 ### 4.1 Acceso al Módulo
 
 Desde el Panel Principal, haga clic en el botón **"Entrar"** de la tarjeta "Gestión de Clientes".
 
-![Botón de Acceso a Clientes](../../assets/images/manual/clientes-button.png)
+<p align="center">
+  <img src="../assets/images/manual/clientes-button.jpeg" alt="Botón de Acceso a Clientes" width="60%">
+</p> 
 
 ### 4.2 Lista de Clientes
 
@@ -174,7 +184,10 @@ La pantalla principal muestra:
 
 ### 4.3 Buscar un Cliente
 
-![Búsqueda de Clientes](../../assets/images/manual/clientes-search.png)
+<p align="center">
+  <img src="../assets/images/manual/clientes-search.jpeg" alt="Búsqueda de Clientes" width="60%">
+</p> 
+
 
 1. En la barra de búsqueda, escriba el nombre del cliente
 2. Haga clic en el botón **"Buscar"** (azul)
@@ -182,7 +195,9 @@ La pantalla principal muestra:
 
 ### 4.4 Agregar un Nuevo Cliente
 
-![Botón Agregar Cliente](../../assets/images/manual/clientes-add-button.png)
+<p align="center">
+  <img src="../assets/images/manual/clientes-add-button.jpeg" alt="Botón Agregar Cliente" width="60%">
+</p>
 
 1. Haga clic en el botón **"+ Agregar Cliente"** (verde)
 2. Complete el formulario con los siguientes datos:
@@ -213,14 +228,18 @@ La pantalla principal muestra:
 
 ## 5. Gestión de Inventario
 
-![Módulo de Inventario](../../assets/images/manual/inventario-main.png)  
-*Ilustración 5: Vista del Módulo de Inventario*
+<p align="center">
+  <img src="../assets/images/manual/inventario-main.jpeg" alt="Módulo de Inventario" width="60%">
+  Ilustración 5: Vista del Módulo de Inventario
+</p>
 
 ### 5.1 Acceso al Módulo
 
 Desde el Panel Principal, haga clic en el botón **"Entrar"** de la tarjeta "Inventario".
 
-![Botón de Acceso a Inventario](../../assets/images/manual/inventario-button.png)
+<p align="center">
+  <img src="../assets/images/manual/inventario-button.jpeg" alt="Botón de Acceso a Inventario" width="60%">
+</p>
 
 ### 5.2 Vista de Inventario
 
@@ -238,7 +257,9 @@ La pantalla muestra:
 
 ### 5.3 Agregar Nuevo Material
 
-![Botón Agregar Material](../../assets/images/manual/inventario-add-button.png)
+<p align="center">
+  <img src="../assets/images/manual/inventario-add-button.jpeg" alt="Botón Agregar Material" width="60%">
+</p>
 
 1. Haga clic en el botón **"Agregar nuevo"**
 2. Complete el formulario con la siguiente información:
@@ -281,20 +302,26 @@ Cada material registrado recibe un código QR único que permite:
 
 ## 6. Gestión de Embarques
 
-![Módulo de Embarques](../../assets/images/manual/embarques-main.png)  
-*Ilustración 6: Vista del Módulo de Embarques*
+<p align="center">
+  <img src="../assets/images/manual/embarques-main.jpeg" alt="Módulo de Embarques" width="60%">
+  Ilustración 6: Vista del Módulo de Embarques
+</p>
 
 ### 6.1 Acceso al Módulo
 
 Desde el Panel Principal, haga clic en el botón **"Entrar"** de la tarjeta "Embarques".
 
-![Botón de Acceso a Embarques](../../assets/images/manual/embarques-button.png)
+<p align="center">
+  <img src="../assets/images/manual/embarques-button.jpeg" alt="Botón de Acceso a Embarques" width="60%">
+</p>
 
 ### 6.2 Vista de Embarques
 
 La pantalla muestra:
 
-![Título Embarques](../../assets/images/manual/embarques-title.png)
+<p align="center">
+  <img src="../assets/images/manual/embarques-title.jpeg" alt="Título Embarques" width="60%">
+</p>
 
 - **Título:** "Embarques"
 - **Botón "Agregar nuevo embarque":** Para crear nuevos embarques (azul)
@@ -356,14 +383,18 @@ Para finalizar un embarque:
 
 ## 7. Generación de Reportes
 
-![Módulo de Reportes](../../assets/images/manual/reportes-main.png)  
-*Ilustración 7: Vista del Generador de Reportes*
+<p align="center">
+  <img src="../assets/images/manual/reportes-main.jpeg" alt="Módulo de Reportes" width="60%">
+  Ilustración 7: Vista del Generador de Reportes
+</p>
 
 ### 7.1 Acceso al Módulo
 
 Desde el Panel Principal, haga clic en el botón **"Entrar"** de la tarjeta "Reportes".
 
-![Botón de Acceso a Reportes](../../assets/images/manual/reportes-button.png)
+<p align="center">
+  <img src="../assets/images/manual/reportes-button.jpeg" alt="Botón de Acceso a Reportes" width="60%">
+</p>
 
 ### 7.2 Generador de Reportes
 
@@ -401,8 +432,10 @@ Puede exportar los reportes en dos formatos:
 
 ### 7.6 Descargar Reporte Generado
 
-![Pantalla de Reporte Generado](../../assets/images/manual/reportes-generated.png)  
-*Ilustración 8: Reporte Generado con Código QR*
+<p align="center">
+  <img src="../assets/images/manual/reportes-generated.jpeg" alt="Pantalla de Reporte Generado" width="60%">
+  Ilustración 8: Reporte Generado con Código QR
+</p>
 
 Después de generar el reporte:
 
@@ -431,8 +464,10 @@ El código QR permite:
 
 ## 8. Gestión de Usuarios
 
-![Módulo de Usuarios](../../assets/images/manual/usuarios-main.png)  
-*Ilustración 9: Vista del Módulo de Gestión de Usuarios*
+<p align="center">
+  <img src="../assets/images/manual/usuarios-main.jpeg" alt="Módulo de Usuarios" width="60%">
+  Ilustración 9: Vista del Módulo de Gestión de Usuarios
+</p>
 
 ### 8.1 Acceso al Módulo
 
