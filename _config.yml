@@ -112,6 +112,12 @@ navigation:
         url: /08-calidad/casos-prueba
       - title: "Reporte QA"
         url: /08-calidad/reporte-qa
+      - title: "Registro de defectos"
+        url: /08-calidad/registro-defectos
+      - title: "Acta de aceptación del Cliente"
+        url: /08-calidad/acta-aceptacion-cliente
+      - title: "Lecciones aprendidas"
+        url: /08-calidad/lecciones-aprendidas
         
   - id: riesgos
     title: "Gestión de Riesgos"
@@ -121,7 +127,19 @@ navigation:
         url: /09-riesgos/index
       - title: "Registro de Riesgos"
         url: /09-riesgos/registro-riesgos
-    
+      - title: "Introducción"
+        url: /09-riesgos/politica-seguridad
+      - title: "Registro de Riesgos"
+        url: /09-riesgos/analisis-amenazas
+      - title: "Introducción"
+        url: /09-riesgos/controles-seguridad
+      - title: "Registro de Riesgos"
+        url: /09-riesgos/plan-incidentes
+      - title: "Introducción"
+        url: /09-riesgos/plan-continuidad
+      - title: "Registro de Riesgos"
+        url: /09-riesgos/auditoria-seguridad
+
   - id: interesados
     title: "Interesados"
     url: /10-interesados/
