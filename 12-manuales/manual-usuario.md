@@ -54,6 +54,7 @@ La **Plataforma Web de Diesel Global** es una solución tecnológica diseñada p
 
 <p align="center">
   <img src="../assets/images/manual/login-screen.jpeg" alt="Ilustración 1: Inicio de Sesión" width="80%">
+  <br><br>
   Ilustración 1: Inicio de Sesión
 </p>
 
@@ -68,6 +69,7 @@ La **Plataforma Web de Diesel Global** es una solución tecnológica diseñada p
 
 <p align="center">
   <img src="../assets/images/manual/login-form.jpeg" alt="Ilustración 2: Ingresar Credenciales" width="60%">
+  <br><br>
   Ilustración 2: Ingresar Credenciales
 </p> 
 
@@ -96,6 +98,7 @@ El sistema cuenta con diferentes roles, cada uno con permisos específicos:
 
 <p align="center">
   <img src="../assets/images/manual/dashboard-main.jpeg" alt="Ilustración 3: Vista del Panel Principal" width="60%">
+  <br><br>
   Ilustración 3: Vista del Panel Principal
 </p> 
 
@@ -159,6 +162,7 @@ Al iniciar sesión, accederá al Panel Principal, que muestra:
 ## 4. Gestión de Clientes
 <p align="center">
   <img src="../assets/images/manual/clientes-main.jpeg" alt="Ilustración 4: Vista del Módulo de Clientes" width="60%">
+  <br><br>
   Ilustración 4: Vista del Módulo de Clientes
 </p> 
 
@@ -230,6 +234,7 @@ La pantalla principal muestra:
 
 <p align="center">
   <img src="../assets/images/manual/inventario-main.jpeg" alt="Módulo de Inventario" width="60%">
+  <br><br>
   Ilustración 5: Vista del Módulo de Inventario
 </p>
 
@@ -304,6 +309,7 @@ Cada material registrado recibe un código QR único que permite:
 
 <p align="center">
   <img src="../assets/images/manual/embarques-main.jpeg" alt="Módulo de Embarques" width="60%">
+  <br><br>
   Ilustración 6: Vista del Módulo de Embarques
 </p>
 
@@ -385,6 +391,7 @@ Para finalizar un embarque:
 
 <p align="center">
   <img src="../assets/images/manual/reportes-main.jpeg" alt="Módulo de Reportes" width="60%">
+  <br><br>
   Ilustración 7: Vista del Generador de Reportes
 </p>
 
@@ -434,6 +441,7 @@ Puede exportar los reportes en dos formatos:
 
 <p align="center">
   <img src="../assets/images/manual/reportes-generated.jpeg" alt="Pantalla de Reporte Generado" width="60%">
+  <br><br>
   Ilustración 8: Reporte Generado con Código QR
 </p>
 
@@ -466,6 +474,7 @@ El código QR permite:
 
 <p align="center">
   <img src="../assets/images/manual/usuarios-main.jpeg" alt="Módulo de Usuarios" width="60%">
+  <br><br>
   Ilustración 9: Vista del Módulo de Gestión de Usuarios
 </p>
 
