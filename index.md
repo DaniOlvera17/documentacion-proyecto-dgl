@@ -137,6 +137,8 @@ Aquí encontrarás la información de gestión, análisis, diseño, desarrollo, 
 | Estado | Finalizado |
 
 ---
+<div class="text-center text-gray">
+  <small>© 2025 – Diesel Global Logistics Inc.</small><br>
+  <small>Documentación oficial del proyecto</small>
+</div>
 
-© 2025 – Diesel Global Logistics Inc.  
-Documentación oficial del proyecto
