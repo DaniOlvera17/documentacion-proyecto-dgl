@@ -52,8 +52,10 @@ La **Plataforma Web de Diesel Global** es una solución tecnológica diseñada p
 
 ## 2. Acceso al Sistema
 
-![Pantalla de Inicio de Sesión](../../assets/images/manual/login-screen.jpeg)  
-*Ilustración 1: Inicio de Sesión*
+<p align="center">
+  <img src="../assets/images/manual/login-screen.jpeg" alt="Ilustración 1: Inicio de Sesión" width="100%">
+  *Ilustración 1: Inicio de Sesión*
+</p>
 
 ### 2.1 Iniciar Sesión
 
@@ -64,8 +66,10 @@ La **Plataforma Web de Diesel Global** es una solución tecnológica diseñada p
 
 2. En la pantalla de inicio de sesión, encontrará dos campos:
 
-   ![Formulario de Login](../../assets/images/manual/login-form.jpeg)  
-   *Ilustración 2: Ingresar Credenciales*
+<p align="center">
+  <img src="../assets/images/manual/login-form.jpeg" alt="Ilustración 1: Inicio de Sesión" width="100%">
+  *Ilustración 2: Ingresar Credenciales*
+</p> 
 
    - **Usuario:** Ingrese su nombre de usuario asignado
    - **Contraseña:** Ingrese su contraseña
