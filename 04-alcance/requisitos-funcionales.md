@@ -945,6 +945,6 @@ Este documento describe todas las funcionalidades que debe proporcionar el siste
 ---
 
 <div class="text-center text-gray">
-  <small>Última actualización: 3 de diciembre de 2025</small><br>
+  <small>Última actualización: 06 de diciembre de 2025</small><br>
   <small>© 2025 Diesel Global Logistics Inc.</small>
 </div>

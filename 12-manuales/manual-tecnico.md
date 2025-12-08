@@ -1311,13 +1311,7 @@ sudo systemctl start fail2ban
 
 ---
 
-<div style="text-align: center; color: #666; margin-top: 3rem;">
-  <p><strong>Documento generado:</strong> Diciembre 2025</p>
-  <p><strong>Versión del documento:</strong> 1.0</p>
-  <p><strong>Última actualización:</strong> 7 de diciembre de 2025</p>
-  <hr style="margin: 2rem auto; width: 50%; border: 1px solid #ddd;">
-  <p>© 2025 Diesel Global Logistics Inc.</p>
-  <p><em>Confidencial - Solo para uso interno</em></p>
-  <p><strong>Desarrollado por:</strong> Instituto Tecnológico de San Juan del Río</p>
-  <p><strong>Proyecto:</strong> PROJ-2025-001</p>
+<div class="text-center text-gray">
+  <small>Última actualización: 06 de diciembre de 2025</small><br>
+  <small>© 2025 Diesel Global Logistics Inc.</small>
 </div>

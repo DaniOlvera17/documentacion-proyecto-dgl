@@ -26,3 +26,8 @@ Aquí se identifican, clasifican y monitorean los interesados internos y externo
 ---
 
 [← Volver al índice principal](../index)
+
+<div class="text-center text-gray">
+  <small>Última actualización: 06 de diciembre de 2025</small><br>
+  <small>© 2025 Diesel Global Logistics Inc.</small>
+</div>

@@ -644,6 +644,7 @@ Este manual está diseñado para facilitar el uso de la Plataforma Web de Diesel
 
 ---
 
-*Documento generado: Diciembre 2025*  
-*Versión: 1.0*  
-*© 2025 Diesel Global Logistics Inc.*
+<div class="text-center text-gray">
+  <small>Última actualización: 06 de diciembre de 2025</small><br>
+  <small>© 2025 Diesel Global Logistics Inc.</small>
+</div>

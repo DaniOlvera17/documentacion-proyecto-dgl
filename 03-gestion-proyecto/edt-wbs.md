@@ -143,3 +143,8 @@ El control del avance se realizará mediante **Jira** y reuniones Scrum.
 ---
 
 [← Volver a Gestión del Proyecto](index)
+
+<div class="text-center text-gray">
+  <small>Última actualización: 06 de diciembre de 2025</small><br>
+  <small>© 2025 Diesel Global Logistics Inc.</small>
+</div>

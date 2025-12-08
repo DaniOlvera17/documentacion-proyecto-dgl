@@ -125,3 +125,8 @@ Después de cada cambio:
 ---
 
 [← Volver a Gestión de Calidad](index)
+
+<div class="text-center text-gray">
+  <small>Última actualización: 06 de diciembre de 2025</small><br>
+  <small>© 2025 Diesel Global Logistics Inc.</small>
+</div>

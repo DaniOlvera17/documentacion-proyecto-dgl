@@ -324,6 +324,6 @@ La gestión de riesgos tiene como objetivo **identificar, analizar, planificar r
 ---
 
 <div class="text-center text-gray">
-  <small>Última actualización: 3 de diciembre de 2025</small><br>
+  <small>Última actualización: 06 de diciembre de 2025</small><br>
   <small>© 2025 Diesel Global Logistics Inc.</small>
 </div>

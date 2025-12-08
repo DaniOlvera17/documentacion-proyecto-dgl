@@ -33,3 +33,8 @@ Definir cómo estará estructurado el sistema a nivel técnico y visual, asegura
 ---
 
 [← Volver al índice principal](../index)
+
+<div class="text-center text-gray">
+  <small>Última actualización: 06 de diciembre de 2025</small><br>
+  <small>© 2025 Diesel Global Logistics Inc.</small>
+</div>
