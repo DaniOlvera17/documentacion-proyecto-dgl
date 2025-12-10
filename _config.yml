@@ -12,6 +12,10 @@ navigation:
   - id: acta-constitutiva
     title: "Acta Constitutiva"
     url: /01-acta-constitutiva/
+
+  - id: bitacora
+    title: "Bitacora DGL"
+    url: /13-bitacora/
     
   - id: scrum
     title: "Scrum"
