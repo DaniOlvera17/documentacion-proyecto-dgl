@@ -1,3 +1,8 @@
+---
+layout: default
+title: Bitacora
+---
+
 # Instituto Tecnológico de San Juan del Río
 
 **Redes de Computadoras**  
